@@ -36,7 +36,7 @@ public class SampleController {
 		model.addAttribute("email",map.get("email"));
 
 		model.addAttribute("title","InquiryForm");
-		//hands-on
+		
 		return "test";
 	}
 
